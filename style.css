@@ -1,0 +1,109 @@
+.myName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.mySkills {
+    margin: 20px;
+  }
+  
+  .mySkills h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .flexContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .flexContainer div {
+    flex-basis: 30%;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .flexContainer img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .flexContainer h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .flexContainer p {
+    font-size: 16px;
+  }
+  .myWork {
+    margin: 20px;
+  }
+  
+  .myWork h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .workGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .workGrid div {
+    text-align: center;
+  }
+  
+  .workGrid img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .workGrid h4 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .workGrid p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .workGrid button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .workGrid button:hover {
+    background-color: #0056b3;
+  }
+  h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Mobile media query */
+  @media screen and (max-width: 600px) {
+    .flexContainer {
+      flex-direction: column;
+    }
+  
+    .flexContainer div {
+      width: 100%;
+    }
+  
+    .workGrid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
